@@ -30,7 +30,7 @@ local defaults = {
 }
 
 colors.palette = defaults
-colors.default_bg = "#2E3440" -- nord0
+colors.default_bg = "#1E2326" -- nord0
 
 function colors.daltonize(severity)
   local daltonize = require("nord.utils.colorblind").daltonize
